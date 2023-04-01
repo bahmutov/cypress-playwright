@@ -1,5 +1,7 @@
 name: ci
 on: push
+permissions:
+  actions: write
 jobs:
   release:
     runs-on: ubuntu-20.04
