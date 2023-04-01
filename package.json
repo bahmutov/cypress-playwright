@@ -1,0 +1,27 @@
+{
+  "name": "cypress-playwright",
+  "version": "1.0.0",
+  "description": "Run Cypress tests using Playwright and Playwright tests using Cypress",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "files": ["src"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahmutov/cypress-playwright.git"
+  },
+  "keywords": [
+    "cypress",
+    "playwright"
+  ],
+  "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bahmutov/cypress-playwright/issues"
+  },
+  "homepage": "https://github.com/bahmutov/cypress-playwright#readme",
+  "devDependencies": {
+    "cypress": "^12.9.0"
+  }
+}
