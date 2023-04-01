@@ -1,15 +1,18 @@
 {
   "name": "cypress-playwright",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "Run Cypress tests using Playwright and Playwright tests using Cypress",
   "main": "src/index.js",
   "scripts": {
-    "test": "cypress run"
+    "test": "cypress run",
+    "semantic-release": "semantic-release"
   },
-  "files": ["src"],
+  "files": [
+    "src"
+  ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bahmutov/cypress-playwright.git"
+    "url": "https://github.com/bahmutov/cypress-playwright.git"
   },
   "keywords": [
     "cypress",
@@ -22,6 +25,7 @@
   },
   "homepage": "https://github.com/bahmutov/cypress-playwright#readme",
   "devDependencies": {
-    "cypress": "^12.9.0"
+    "cypress": "^12.9.0",
+    "semantic-release": "^21.0.1"
   }
 }

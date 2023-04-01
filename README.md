@@ -36,6 +36,17 @@ Want to open 2nd tab and test your chat application? No problem!
 
 ```js
 // Cypress spec
+cy.get('selector button').click() // opens the second tab
+// use PW syntax to wait for the 2nd tab to open
+const secondPage = await context.waitForEvent('page')
+await newPage.waitForLoadState()
+// continue using Cy to test the second page
+cy.get('selector on the second tab').type('something')
+// now close the 2nd page and switch to the first
+cy.get('close button selector').click()
+// or simply use
+await newPage.close()
+// we are back on the first page!
 ```
 
 ## Small print
