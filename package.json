@@ -26,6 +26,6 @@
   "homepage": "https://github.com/bahmutov/cypress-playwright#readme",
   "devDependencies": {
     "cypress": "^12.9.0",
-    "semantic-release": "^21.0.1"
+    "semantic-release": "^20.1.3"
   }
 }
