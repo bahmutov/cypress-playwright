@@ -1,6 +1,6 @@
 {
   "name": "cypress-playwright",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "description": "Run Cypress tests using Playwright and Playwright tests using Cypress",
   "main": "src/index.js",
   "scripts": {
