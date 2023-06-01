@@ -3,6 +3,10 @@
 
 This package provides a bridge between Cypress and Playwright test runners. You can execute Cy tests using Pw and the inverse.
 
+---
+Before using please read [this](https://cypresstips.substack.com/p/cypress-tips-april-2023) 🚨
+---
+
 ## Install
 
 ```
